@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "https://frontend-api-v3.pump.fun/auth/is-valid-jurisdiction",
+            "resourceTypes": [
+                "xmlhttprequest"
+            ]
+        }
+    }
+]
