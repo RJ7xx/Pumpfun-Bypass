@@ -1,0 +1,6 @@
+{
+    "manifest_version": 3,
+    "name": "Pumpfun Bypass",
+    "version": "1.0",
+    "description": "A chrome extension to bypass the pump.fun restricted jurisdication limit without using a VPN."
+}
