@@ -2,5 +2,20 @@
     "manifest_version": 3,
     "name": "Pumpfun Bypass",
     "version": "1.0",
-    "description": "A chrome extension to bypass the pump.fun restricted jurisdication limit without using a VPN."
+    "description": "A chrome extension that blocks the pump.fun restricted jurisdication limit so that the website can be accessed.",
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+    "host_permissions": [
+        "https://frontend-api-v3.pump.fun/auth/is-valid-jurisdiction"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "rule1",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    }
 }
