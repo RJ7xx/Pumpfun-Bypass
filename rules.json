@@ -6,7 +6,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "https://frontend-api-v3.pump.fun/auth/is-valid-jurisdiction",
+            "urlFilter": "https://frontend-api-v3.pump.fun/auth/disabled-features",
             "resourceTypes": [
                 "xmlhttprequest"
             ]
